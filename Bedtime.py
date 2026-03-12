@@ -4,7 +4,7 @@ import psutil
 import winrt.windows.ui.notifications as notifications
 
 killapps = ["discord.exe", "chrome.exe", "steam.exe"]
-terminate_apps
+terminate_apps = [ableton.exe]
 now = datetime.now()
 
 if now.weekday() < 5 and now.hour == 23 and now.minute == 25:
