@@ -39,7 +39,7 @@ def test_closure():
 
 
 def main():
-    test_closure()
+    week_day_shutoff()
 
 if __name__ == "__main__":
     main()
